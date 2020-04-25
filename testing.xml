@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="slrSuite">
+    <test thread-count="5" parallel="true" name="FibonacciTest">
+        <classes>
+            <class name="slr.FibonacciTest"/>
+        </classes>
+    </test> <!-- FibonacciTest -->
+
+    <test thread-count="5" parallel="true" name="PalindromeTest">
+        <classes>
+            <class name="slr.PalindromeTest"/>
+        </classes>
+    </test> <!-- PalindromeTest -->
+</suite> <!-- slrSuite -->
